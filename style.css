@@ -1,0 +1,287 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #dbdbd9;
+
+}
+
+nav {
+       
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;    
+    padding-top: 50px
+    
+    
+}
+
+nav a{
+    color: white;
+    
+}
+  
+nav a:hover {
+    color: blue;
+    transition-delay: .5s;
+    background-color: transparent;
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+  
+nav a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  header { 
+    padding: 10px;    
+    font-family: sans-serif;
+    background-color: rgb(36, 36, 36);
+    color: rgb(248, 246, 246);
+    font-size: 30px;
+    }
+    
+ header img{
+    max-width: 3%;
+    max-height: 10%;
+    
+ }
+
+main{
+    padding-top: 5px;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 100px;
+    } 
+    
+    
+
+.banner {
+        background-image: url("./images/pittsburgh.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+        padding: 2% 6%;
+        min-height: 30vh;
+        background-blend-mode: soft-light;
+    }
+
+h2{
+        text-align: center;
+        justify-content: center;
+        padding-right: 900px;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-style: italic;
+        margin-bottom: 100px;
+    }
+
+    .page-section {
+        margin: 25px 0;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+      }
+      
+      .page-section > h3 {
+        flex: 0 0 20%;
+        text-align: right;
+        padding-right: 15px;
+        border-right: 4px solid black;
+        font-size: 2vw;
+        line-height: 1.1;
+        
+      }
+      
+      .page-section > div {
+        flex: 0 0 77%;
+      }
+      
+      .page-section p {
+        margin-bottom: 20px;
+      }
+      
+    
+
+    p {
+        font-size: 20px;
+        padding: 45px;
+        margin: 70px; 
+        
+    }
+
+    h3{
+        margin-top: 100px;
+        text-decoration: underline;
+    }
+
+    h4{
+        border: solid black;
+        background-color: black;
+        background-size: 10px;
+        text-align: center;
+        
+    }
+    
+    /* flexbox start */
+
+.flex {
+    display: flex;
+    flex-wrap:  wrap; 
+    flex-flow: column wrap;
+    /* justify property defines how the browser distributes space between and around the main axis. */
+    
+
+    
+}
+
+
+.box {
+    border-color: rgb(36, 36, 36);
+    border-style: solid;
+    margin: 50px;
+    
+}
+
+.box-tech{
+    background-image: url("./images/technology.png");
+    background-position: center;
+    background-size: 500px;
+    border: solid black;
+    height: 200px;
+    width: 500px;
+}
+
+.box-msi{
+    background-image: url("./images/msi.png");
+    background-position: center;
+    background-size: 500px;
+    border: solid black;
+    height: 200px;
+    width: 500px;
+    
+}
+
+.box-dice{
+    background-image: url("./images/dice.png");
+    background-position: center;
+    background-size: 500px;
+    border: solid black;
+    height: 200px;
+    width: 500px;
+}
+
+.box-bill{
+    background-image: url("./images/billiards.png");
+    background-position: center;
+    background-size: 500px;
+    border: solid black;
+    height: 200px;
+    width: 500px;
+}
+
+
+.box:hover{
+    transition-delay: .3s;
+    
+    opacity: .6;
+    background-color: black;
+    
+    
+    
+}
+
+/* .box1 img { 
+    display: block;
+    margin: 10px auto;
+    max-width: 800px;
+    
+}
+
+.box2 img {
+
+    display: block;
+    margin: 10px auto;
+    max-width: 690px;
+    
+}
+
+.box3 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 696px;
+}
+
+.box4 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 800px;
+}*/
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    
+  }
+
+  .contact address {
+    
+    align-items: flex-start;
+    align-items: center;
+    padding-top: 90px;
+    padding-left: 300px;
+  }
+
+  .contact a {
+    color: black;
+    padding: 50px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    background-repeat: no-repeat;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+
+@media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+}
+    
+
+      
+    
+
+
