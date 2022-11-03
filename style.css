@@ -75,6 +75,7 @@ nav a:hover {
     transition-delay: .5s;
     background-color: transparent;
     opacity: 0.7;
+    transition: all 0.25s ease-in;
     text-decoration: underline;
   }
   
@@ -115,7 +116,7 @@ main{
         display: flex;
         flex-wrap:  wrap; 
         justify-content: center;
-        align-content: space-around;
+        align-content: space-between;
         
         
     /* justify property defines how the browser distributes space between and around the main axis. */
@@ -133,14 +134,20 @@ main{
     
     
 }
+
+.box:first-child {
+    min-height: 500px;
+    min-width: 800px;
+    
+}
+
 /* added seperate css layout for each image. did not keep it dry. */
 .tech-pic{
-    background-image: url("./images/technology.png");
+    background-image: url("./images/technology.jpg");
     background-position: center;
-    background-size: 500px;
+    background-size: 800px;
     border: solid black;
-    height: 200px;
-    width: 500px;
+    
 }
 
  .msi-pic{ 
@@ -148,7 +155,7 @@ main{
     background-position: center;
     background-size: 500px;
     border: solid black;
-    height: 200px;
+    height: 285px;
     width: 500px;
     
 }
@@ -158,23 +165,32 @@ main{
     background-position: center;
     background-size: 500px;
     border: solid black;
-    height: 200px;
+    height: 285px;
     width: 500px;
 }
 
 .bill-pic{
     background-image: url("./images/billiards.png");
     background-position: center;
-    background-size: 500px;
+    background-size: 600px;
     border: solid black;
-    height: 200px;
+    height: 285px;
     width: 500px;
+}
+
+.custom-pic{
+    background-image: url("./images/custom.jpg");
+    background-position: center;
+    background-size: 700px;
+    border: solid black;
+    height: 285px;
+    width: 500px;
+    
 }
 
 /* add hover transistion to flex boxes */
 .box:hover{
-    transition-delay: .3s;
-    
+    transition: all 0.25s ease-in;
     opacity: .6;
     background-color: black;
 }
@@ -191,15 +207,52 @@ main{
   
 
   .contact a {
-    color: black;
+    
     padding: 50px;
     text-decoration: none;
     font-size: 1.3rem;
     font-style: normal;
     background-repeat: no-repeat;
     transition: all 0.25s ease-in;
-    margin: 0 0.2rem 0.1rem;
+    margin: 0 2.2rem 0.1rem;
     display: inline-block;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: .3;
+  }
+
+  /* icons */
+
+  .fa-linkedin {
+    color: black;
+    
+  }
+
+  .fa-github {
+    color: black;
+    
+  }
+.fa-facebook {
+    color: blue;
+  }
+
+  .fa-phone {
+    color: #a4c639;
+    
+  }
+
+  .fa-envelope {
+    color: #bb001b;
+    
   }
 
 
