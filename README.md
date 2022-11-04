@@ -1,4 +1,6 @@
-# second-project
+# Professional Reference
+
+
 
 This was designed to showcase HTML and CSS skills to future employers.
 
@@ -15,4 +17,7 @@ Flex boxes were used for content to ensure they could be styled, later down the 
 Contact buttons were added, instead of straight info, to make the site more dynamic.
 
 I used Google, W3Schools and met with a tutor to creat this landing page.
+
+I learned how to properly write CSS as you make sections in HTML.
+
 
